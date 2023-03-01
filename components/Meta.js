@@ -25,7 +25,7 @@ Meta.defaultProps = {
     title: "Lorem Ipsum What is Lorem Ipsum?",
     keywords: "Lorem Ipsum What is Lorem Ipsum?",
     description: "Lorem Ipsum What is Lorem Ipsum?",
-    image: "../../public/assets/images/covers/travel-56.jpg"
+    image:"https://img.freepik.com/free-photo/people-festival_1160-736.jpg?w=2000&t=st=1677709606~exp=1677710206~hmac=5aa5f71cd3b7eab915bc3ae30f1f0f8f6ce87927731622b734fa528a2c39aa2a"
 };
 
 export default Meta;
