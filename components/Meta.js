@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Meta = ({ title, keywords, description }) => {
+const Meta = ({ title, keywords, description,image }) => {
     return (
         <Head>
             <title>{title}</title>
@@ -13,6 +13,10 @@ const Meta = ({ title, keywords, description }) => {
             <meta name="keywords" content={keywords} />
             <meta name="description" content={description} />
             <meta name="distribution" content="global" />
+            <meta
+          property="og:image"
+          content={image}
+        />
         </Head>
     );
 };
@@ -21,6 +25,7 @@ Meta.defaultProps = {
     title: "Lorem Ipsum What is Lorem Ipsum?",
     keywords: "Lorem Ipsum What is Lorem Ipsum?",
     description: "Lorem Ipsum What is Lorem Ipsum?",
+    image: "../../public/assets/images/covers/travel-56.jpg"
 };
 
 export default Meta;
