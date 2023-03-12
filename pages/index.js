@@ -7,7 +7,7 @@ import Magazine from "../components/Magazine";
 import Pagination from "../components/Pagination";
 import { Block } from "../components/Grid";
 import Masonry from "react-masonry-css";
-
+import Typewriter from 'typewriter-effect';
 // Data
 const blog_travel_1 = [
     {
@@ -72,16 +72,20 @@ import magazineCover from "../public/assets/images/covers/travel-56.jpg";
 function Travel() {
     return (
         <>
-            <Meta />
+            <Meta image={magazineCover}/>
             <Magazine>
                 <Magazine.Cover image={magazineCover}>
                     <Heading className="absolute left-4 md:left-8 bottom-40 md:bottom-20">
                         <Animate name="fadeIn" delay="1.2s" duration="2s">
                             <Heading.Title>
                                 <h1 className="text-white text-5xl font-extrabold leading-tight ">
-                               Lorem Ipsum
-                                    <br />
-                                    What is Lorem Ipsum?
+                                <Typewriter
+  options={{
+    strings: ['Hello', 'World'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
                                 </h1>
                             </Heading.Title>
                         </Animate>
