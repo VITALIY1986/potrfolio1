@@ -8,7 +8,7 @@ export default function Button(props) {
     }
 
     return (
-        <button className={`${styles.button} ${props.className} ${props.active && styles["active"]} ${type}`} onClick={props.onClick}>
+        <button aria-label="Menu" className={`${styles.button} ${props.className} ${props.active && styles["active"]} ${type}`} onClick={props.onClick}>
             {props.children}
         </button>
     );
