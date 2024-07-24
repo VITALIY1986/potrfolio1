@@ -65,6 +65,42 @@ const blog_travel_1 = [
         category: "Розробка . дизайн",
         link: "https://www.figma.com/proto/K8g08ebSao9HiRd5xRFr5Y/Wireframing-in-Figma?node-id=106-439&t=hK4nd8eCiaQAvgPd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A439",
     },
+    {
+        title: "Відео креатив ",
+        image: "/assets/images/blog/cos.jpg",
+        image_width: 600,
+        image_height: 600,
+        excerpt: "Відео відзняте мною ",
+        category: "Розробка . дизайн",
+        link: "https://www.instagram.com/p/CtkKbuxocUt",
+    },
+    {
+        title: "Відео креатив ",
+        image: "/assets/images/blog/complex.jpg",
+        image_width: 600,
+        image_height: 600,
+        excerpt: "Відео відзняте мною ",
+        category: "Розробка . дизайн",
+        link: "https://www.instagram.com/p/CtzuuKAok9b/",
+    },
+    {
+        title: "Відео креатив ",
+        image: "/assets/images/blog/vit.jpg",
+        image_width: 600,
+        image_height: 600,
+        excerpt: "Відео відзняте мною ",
+        category: "Розробка . дизайн",
+        link: "https://www.instagram.com/p/CukghEDo8HZ/",
+    },
+    {
+        title: "Відео креатив ",
+        image: "/assets/images/blog/b6.jpg",
+        image_width: 600,
+        image_height: 600,
+        excerpt: "Відео відзняте мною ",
+        category: "Розробка . дизайн",
+        link: "https://www.instagram.com/p/CuShcHhImfQ",
+    },
    
 ];
 
@@ -220,7 +256,7 @@ function Travel() {
                         <Masonry breakpointCols={{ default: 2, 768: 1 }} className="masonry flex" columnClassName="masonry__item">
                             {blog_travel_1 &&
                                 blog_travel_1.length > 0 &&
-                                blog_travel_1.slice(0, 6).map((item, index) => (
+                                blog_travel_1.slice(0, 12).map((item, index) => (
                                     <div key={index}>
                                         <Animate name="fadeInUpXs" delay={`${index + 3}00ms`} duration="1.8s">
                                             <Post post={item} model={1} max_words={15} image_width={item.image_width} image_height={item.image_height} />
