@@ -148,6 +148,14 @@ function Travel() {
                                        <p className="font-bold text-2xl text-white"> 2018 </p> 
 
 <p className="text-slate-200">Поглибила знання з кодування на JavaScript та React. Почала розробляти особисті блоги для клієнтів на платформах Next.js та Gatsby.js.</p>
+<ul className="mt-3">
+                                        <li>- Next.js</li>
+                                        <li>- Gatsby.js</li>
+                                        <li>- Git </li>
+                                        <li>- Npm </li>
+                                        <li>- Node.js</li>
+                                       </ul>  
+
 <p className="font-bold text-3xl text-white"> Знання мов </p> 
 <p className="text-slate-200">ВІЛЬНО - Українська , Російська </p>
 <p className="text-slate-200">В1 - Англійська  </p>
@@ -180,7 +188,7 @@ function Travel() {
                         <Heading className="text-center">
                             <Heading.Title>
                                 <h2 className="text-45 text-2xl md:text-5xl font-extrabold leading-tight mb-8">
-                                    <span>Звісно це не все моє портфоліо) </span>
+                                    <span>Звісно, це не все моє портфоліо.) </span>
                                   
                                  
                                    
