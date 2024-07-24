@@ -59,7 +59,7 @@ const blog_travel_1 = [
 ];
 
 // Magazine cover image
-import magazineCover from "../public/assets/images/covers/Alina.jpg";
+import magazineCover from "../public/assets/images/covers/mi.jpg";
 
 function Travel() {
     return (
