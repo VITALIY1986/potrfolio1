@@ -3,7 +3,7 @@ import Head from "next/head";
 const Meta = ({ title, keywords, description,image }) => {
     return (
         <Head>
-            <title>{title}</title>
+            <title>Портфоліо Альона Статкевич</title>
             <meta charSet="utf-8" />
             <meta name="rating" content="Портфоліо Альона Статкевич" />
             <meta name="author" content="Портфоліо Альона Статкевич" />
