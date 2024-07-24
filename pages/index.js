@@ -161,6 +161,7 @@ function Travel() {
                                         <ul className="mt-3 text-lg">
                                         <li>- HTML, HTML5, CSS, SASS, SCSS</li>
                                         <li>- Основи JavaScript</li>
+                                        <li>- фреймворки - Bootstrap 5 \ Bulma \ Tailwind CSS</li>
                                        </ul>   
                                        <p className="font-bold text-2xl text-white"> 2016 </p> 
 
@@ -218,6 +219,24 @@ function Travel() {
                             </Heading.Title>
                           
                         </Heading>
+                    </Block>
+                    <Block className="px-8 pb-8">
+                 
+                        <Heading className="text-center flex justify-center mt-12">
+                            <Heading.Title>
+                            <div className="button_shine">
+  <a href="tel:+380664227756">Зателефонувати мені</a>
+</div>
+                            </Heading.Title>
+                        
+                        </Heading>
+                        <div className="mt-12 mb-12">
+                        <p className="font-bold text-2xl text-white"> Мої контакти! </p>
+                       <p><span className="text-white"> email:</span> alonastatkevic@gmail.com</p>
+                       <p> <span className="text-white">telephone:</span> +38066-422-77-56</p>
+                       <p> <span className="text-white">Viber:</span> +38066-422-77-56</p>
+                       <p> <span className="text-white">Telegram:</span> +38066-422-77-56</p>
+                        </div>
                     </Block>
                 </Magazine.Content>
             </Magazine>
