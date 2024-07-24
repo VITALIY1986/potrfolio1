@@ -22,10 +22,10 @@ const Meta = ({ title, keywords, description,image }) => {
 };
 
 Meta.defaultProps = {
-    title: "Lorem Ipsum What is Lorem Ipsum?",
-    keywords: "Lorem Ipsum What is Lorem Ipsum?",
-    description: "Lorem Ipsum What is Lorem Ipsum?",
-    image:"https://img.freepik.com/free-photo/people-festival_1160-736.jpg?w=2000&t=st=1677709606~exp=1677710206~hmac=5aa5f71cd3b7eab915bc3ae30f1f0f8f6ce87927731622b734fa528a2c39aa2a"
+    title: "Портфоліо Альона Статкевич",
+    keywords: "Портфоліо Альона Статкевич",
+    description: "Портфоліо Альона Статкевич",
+    image:"https://instagram.fias1-1.fna.fbcdn.net/v/t51.2885-19/449252383_846037527375221_3275430813846302752_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fias1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=slXEjeB9ZaIQ7kNvgEyar0S&edm=AEhyXUkBAAAA&ccb=7-5&oh=00_AYCsfF2MDTchskBG8qnj93GdmCmPhXn-15rdIOVOgnwCFA&oe=66A70D13&_nc_sid=8f1549"
 };
 
 export default Meta;
