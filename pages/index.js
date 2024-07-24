@@ -49,7 +49,7 @@ const blog_travel_1 = [
     },
     {
         title: "Виробник весільних суконь Україна",
-        image: "/assets/images/blog/wedding.jpg",
+        image: "/assets/images/blog/wed.jpg",
         image_width: 600,
         image_height: 600,
         excerpt: "Дизайн, розробка та наповнення контентом ",
