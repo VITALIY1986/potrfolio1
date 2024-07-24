@@ -10,15 +10,7 @@ import Masonry from "react-masonry-css";
 import Typewriter from 'typewriter-effect';
 // Data
 const blog_travel_1 = [
-    {
-        title: "Сайт дизайнера  Claudio Ungureanu Румунія ",
-        image: "/assets/images/blog/ung.jpg",
-        image_width: 600,
-        image_height: 600,
-        excerpt: "В цьому проекті я розробила дизайн в програмі figma (може не коректно відображаися ца залежить від платформи figma)",
-        category: "Розробка . дизайн",
-        link: "https://www.figma.com/proto/K8g08ebSao9HiRd5xRFr5Y/Wireframing-in-Figma?node-id=106-439&t=hK4nd8eCiaQAvgPd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A439",
-    },
+ 
     {
         title: "Trifecta med spa -  мережа спа в Нью Йорку",
         image: "/assets/images/blog/NewCover.jpg",
@@ -47,6 +39,15 @@ const blog_travel_1 = [
         link: "https://www.instagram.com/p/CE4vKtJFaP9/",
     },
     {
+        title: "Luxtex Постільна білизна від виробника",
+        image: "/assets/images/blog/bedline.jpg",
+        image_width: 600,
+        image_height: 900,
+        excerpt: "Розробила дизайн / заповнення / та співрозробник (розроблено на next.js але в якосты адмінки wordpress - тобто товари витягуються з адмінки через API - GraphQL запити)",
+        category: "Розробка . дизайн",
+        link: "https://lux-tex.com.ua/",
+    },
+    {
         title: "Виробник весільних суконь Україна",
         image: "/assets/images/blog/wedding.jpg",
         image_width: 600,
@@ -54,6 +55,15 @@ const blog_travel_1 = [
         excerpt: "Дизайн, розробка та наповнення контентом ",
         category: "Розробка . дизайн",
         link: "https://vekawedding.com/ro/wedding-stylist-2/",
+    },
+    {
+        title: "Сайт дизайнера  Claudio Ungureanu Румунія ",
+        image: "/assets/images/blog/ung.jpg",
+        image_width: 600,
+        image_height: 600,
+        excerpt: "В цьому проекті я розробила дизайн в програмі figma (може не коректно відображаися ца залежить від платформи figma)",
+        category: "Розробка . дизайн",
+        link: "https://www.figma.com/proto/K8g08ebSao9HiRd5xRFr5Y/Wireframing-in-Figma?node-id=106-439&t=hK4nd8eCiaQAvgPd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A439",
     },
    
 ];
@@ -73,7 +83,7 @@ function Travel() {
                                 <h1 className="text-white text-5xl font-extrabold leading-tight ">
                                 <Typewriter
   options={{
-    strings: ['Привіт ', 'це моє',  'портфоліо'],
+    strings: ['Привіт ', 'Hello',  'Buna'],
     autoStart: true,
     loop: true,
   }}
@@ -124,6 +134,7 @@ function Travel() {
                                         <li>- Adobe Photoshop</li>
                                         <li>- Adobe After Effects</li>
                                         <li>- Adobe Premiere Pro</li>
+                                        <li>- DaVinci Resolve </li>
                                         <li>- Google Web Designer</li>
                                         <li>- Figma</li>
                                          
@@ -135,7 +146,17 @@ function Travel() {
                                         <li>- Joomla</li>
                                         <li>- PrestaShop</li>
                                         <li>- Contentful</li>
-                                       </ul>               
+                                       </ul>     
+                                       <p className="text-slate-200 text-lg">Просування сайтів та SEO</p>   
+
+<ul className="mt-3 text-lg">
+<li>- Google Analytics</li>
+<li>- Google Keyword Planner</li>
+<li>- Google Search Console</li>
+<li>- Facebook Pixel</li>
+<li>- Ahrefs</li>
+<li>- Різні сервіси для перевірки текстів на унікальність</li>
+</ul>             
                                         <p className="text-slate-200 text-lg">Також набула досвіду з кодування:</p> 
                                         <ul className="mt-3 text-lg">
                                         <li>- HTML, HTML5, CSS, SASS, SCSS</li>
@@ -151,6 +172,7 @@ function Travel() {
 <ul className="mt-3 text-lg">
                                         <li>- Next.js</li>
                                         <li>- Gatsby.js</li>
+                                        <li>- GraphQL</li>
                                         <li>- Git </li>
                                         <li>- Npm </li>
                                         <li>- Node.js</li>
@@ -160,12 +182,12 @@ function Travel() {
 <p className="text-slate-200 text-lg">ВІЛЬНО - Українська , Російська </p>
 <p className="text-slate-200 text-lg">В1 - Англійська  </p>
 <p className="text-slate-200 text-lg">С1 - Румунська  </p>
-<p className="font-bold text-3xl text-white"> На даний момент </p> 
+<p className="font-bold text-3xl text-white"> На даний момент - поглиблюю знання з UI/UX дизайну та фотографії </p> 
 
 <p className="text-slate-200 text-lg">Цей шлях дозволив мені стати справжнім професіоналом у сфері контент-менеджменту та веб-розробки, поєднуючи креативний підхід і технічні навички. На даний момент я займаюсь переважно контент-менеджментом, зосереджуючись на створенні високоякісного контенту, управлінні соціальними мережами, розробці стратегій SEO та запуску ефективних рекламних кампаній.</p>
 
-
-
+<p className="font-bold text-3xl text-white"> Відпочинок  </p> 
+<p className="text-slate-200 text-lg">Вільний час проводжу зі своєю сім'єю часто подорожую, обожнюю  гори 🏔️ та море 🌊. Гори надають мені можливість насолоджуватися природою, свіжим повітрям та активним відпочинком, як-от піші походи 🚶 та катання на лижах 🎿. Морський відпочинок дарує спокій та релаксацію 😌, дозволяє насолоджуватися сонцем ☀️, плаванням. Такі подорожі заряджають мене енергією ⚡ та натхненням для нових професійних звершень.</p>
 
                         </Heading>
                     </Block>
@@ -188,7 +210,7 @@ function Travel() {
                         <Heading className="text-center">
                             <Heading.Title>
                                 <h2 className="text-45 text-2xl md:text-5xl font-extrabold leading-tight mb-8">
-                                    <span>Звісно, це не все моє портфоліо.) </span>
+                                    <span>Звісно, це лише частинка мого портфоліо...) </span>
                                   
                                  
                                    
