@@ -120,13 +120,13 @@ function Travel() {
                                     <p className="font-bold text-2xl text-white"> 2015 </p>
                                     <p className="text-slate-200 text-lg">Розпочала свою професійну діяльність як контент-менеджер. За цей час я займалася:</p>
                                     <ul className="mt-3 text-lg">
-                                        <li>- SMM та SEO</li>
+                                        <li>- SMM </li>
                                         <li>- Створенням постів і дизайнів</li>
                                         <li>- Створенням рекламних банерів (фото ,відео)</li>
                                         <li>- Фотографуванням та розробкою рекламних креативів</li>
                                         <li>- Відеоанімацією</li>
                                         <li>- Заповненням та зміною дизайнів сайтів</li>
-                                        <li>- Запуском рекламних кампаній у Facebook та Google SEO</li>
+                                        <li>- Запуском рекламних кампаній у Facebook та Google</li>
                                         <li>- SEO</li>
                                         </ul>
 <p className="text-slate-200 text-lg">Освоїла такі програми:</p>
