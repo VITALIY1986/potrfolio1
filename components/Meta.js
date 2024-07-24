@@ -5,9 +5,9 @@ const Meta = ({ title, keywords, description,image }) => {
         <Head>
             <title>{title}</title>
             <meta charSet="utf-8" />
-            <meta name="rating" content="Lorem Ipsum What is Lorem Ipsum?" />
-            <meta name="author" content="Lorem Ipsum What is Lorem Ipsum?" />
-            <meta name="expires" content="Lorem Ipsum What is Lorem Ipsum?" />
+            <meta name="rating" content="Портфоліо Альона Статкевич" />
+            <meta name="author" content="Портфоліо Альона Статкевич" />
+            <meta name="expires" content="Портфоліо Альона Статкевич" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="language" content="english" />
             <meta name="keywords" content={keywords} />
