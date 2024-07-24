@@ -13,6 +13,7 @@ const Meta = ({ title, keywords, description,image }) => {
             <meta name="keywords" content={keywords} />
             <meta name="description" content={description} />
             <meta name="distribution" content="global" />
+            
             <meta
           property="og:image"
           content={image}

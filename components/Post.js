@@ -49,6 +49,10 @@ const Post = (props) => {
                             </p>
                         )}
                     </div>
+                    <a href={post.link}>
+                    <div className="button_shine text-center mt-3 text-white">
+  Переглянути проект
+</div></a>
                 </div>
             </div>
         </article>

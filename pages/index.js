@@ -103,7 +103,7 @@ function Travel() {
                     <Block className="py-24 px-4 md:px-8 pb-20 xl:pb-52">
                         <Heading>
                             <Heading.Title>
-                                <h2 className="xl:absolute lg:left-8 xl:-left-32 right-8 text-4xl md:text-5xl font-extrabold  leading-tight text-white">
+                                <h2 className="font-sans xl:absolute lg:left-8 xl:-left-32 right-8 text-4xl md:text-5xl font-extrabold  leading-tight text-white ">
                                     <span>Моя професійна  </span>
                                     <span style={{ color: "#d10000" }}>діяльність</span>
                                 </h2>
