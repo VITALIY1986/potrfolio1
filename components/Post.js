@@ -36,25 +36,16 @@ const Post = (props) => {
                 )}
                 <div className={styles.post__content}>
                     <div className={styles.post__content__inner}>
-                        {post.category && (
-                            <div className={`${styles.post__content__category} ${styles["post__content__category--style-1"]}`}>
-                                <Link href={`/category`}>
-                                    <a>
-                                        <span>{post.category}</span>
-                                        <span></span>
-                                    </a>
-                                </Link>
-                            </div>
-                        )}
-                        <h3 className={styles.post__content__title}>
+                       
+                        <h3 className='text-2xl '>
                             <Link href={post.link}>
                                 <a>{post.title}</a>
                             </Link>
                         </h3>
                         {post.excerpt && props.max_words > 0 && (
-                            <p className={styles.post__content__excerpt}>
-                                {post.excerpt.split(" ").splice(0, props.max_words).join(" ")}
-                                {post.excerpt.split(" ").length > props.max_words && " ..."}
+                            <p className='text-lg'>
+                                {post.excerpt}
+                             
                             </p>
                         )}
                     </div>
@@ -66,8 +57,8 @@ const Post = (props) => {
 
 Post.defaultProps = {
     title: "Title",
-    quality: 70,
-    max_words: 0,
+    quality: 400,
+    max_words: 400,
     image_width: 600,
     image_height: 600,
 };

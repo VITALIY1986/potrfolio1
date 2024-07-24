@@ -104,12 +104,12 @@ function Travel() {
                     <Block className="py-24 px-4 md:px-8 pb-20 xl:pb-52">
                         <Heading>
                         <p className="font-bold text-2xl text-white"> 2008 </p>
-                        <p className="text-slate-200">Навчалася в коледжі Імені Нечуя-Левицького за спеціальністю художник-дизайнер</p>
+                        <p className="text-slate-200 text-lg">Навчалася в коледжі Імені Нечуя-Левицького за спеціальністю художник-дизайнер</p>
                             <p className="font-bold text-2xl text-white"> 2011 </p>
-                                    <p className="text-slate-200">Навчалася - Київський Національний університет біотехнологій та природних ресурсів за спеціальністю інженер.</p>
+                                    <p className="text-slate-200 text-lg">Навчалася - Київський Національний університет біотехнологій та природних ресурсів за спеціальністю інженер.</p>
                                     <p className="font-bold text-2xl text-white"> 2015 </p>
-                                    <p className="text-slate-200">Розпочала свою професійну діяльність як контент-менеджер. За цей час я займалася:</p>
-                                    <ul className="mt-3">
+                                    <p className="text-slate-200 text-lg">Розпочала свою професійну діяльність як контент-менеджер. За цей час я займалася:</p>
+                                    <ul className="mt-3 text-lg">
                                         <li>- SMM та SEO</li>
                                         <li>- Створенням постів і дизайнів</li>
                                         <li>- Створенням рекламних банерів (фото ,відео)</li>
@@ -119,8 +119,8 @@ function Travel() {
                                         <li>- Запуском рекламних кампаній у Facebook та Google SEO</li>
                                         <li>- SEO</li>
                                         </ul>
-<p className="text-slate-200">Освоїла такі програми:</p>
-<ul className="mt-3">
+<p className="text-slate-200 text-lg">Освоїла такі програми:</p>
+<ul className="mt-3 text-lg">
                                         <li>- Adobe Photoshop</li>
                                         <li>- Adobe After Effects</li>
                                         <li>- Adobe Premiere Pro</li>
@@ -128,27 +128,27 @@ function Travel() {
                                         <li>- Figma</li>
                                          
                                         </ul>
-                                        <p className="text-slate-200">Працювала з адмінпанелями:</p>   
+                                        <p className="text-slate-200 text-lg">Працювала з адмінпанелями:</p>   
 
-                                        <ul className="mt-3">
+                                        <ul className="mt-3 text-lg">
                                         <li>- WordPress</li>
                                         <li>- Joomla</li>
                                         <li>- PrestaShop</li>
                                         <li>- Contentful</li>
                                        </ul>               
-                                        <p className="text-slate-200">Також набула досвіду з кодування:</p> 
-                                        <ul className="mt-3">
+                                        <p className="text-slate-200 text-lg">Також набула досвіду з кодування:</p> 
+                                        <ul className="mt-3 text-lg">
                                         <li>- HTML, HTML5, CSS, SASS, SCSS</li>
                                         <li>- Основи JavaScript</li>
                                        </ul>   
                                        <p className="font-bold text-2xl text-white"> 2016 </p> 
 
-                                       <p className="text-slate-200">Почала створювати сайти на платформах Contao та WordPress.</p>
+                                       <p className="text-slate-200 text-lg">Почала створювати сайти на платформах Contao та WordPress.</p>
 
                                        <p className="font-bold text-2xl text-white"> 2018 </p> 
 
-<p className="text-slate-200">Поглибила знання з кодування на JavaScript та React. Почала розробляти особисті блоги для клієнтів на платформах Next.js та Gatsby.js.</p>
-<ul className="mt-3">
+<p className="text-slate-200 text-lg">Поглибила знання з кодування на JavaScript та React. Почала розробляти особисті блоги для клієнтів на платформах Next.js та Gatsby.js.</p>
+<ul className="mt-3 text-lg">
                                         <li>- Next.js</li>
                                         <li>- Gatsby.js</li>
                                         <li>- Git </li>
@@ -157,12 +157,12 @@ function Travel() {
                                        </ul>  
 
 <p className="font-bold text-3xl text-white"> Знання мов </p> 
-<p className="text-slate-200">ВІЛЬНО - Українська , Російська </p>
-<p className="text-slate-200">В1 - Англійська  </p>
-<p className="text-slate-200">С1 - Румунська  </p>
+<p className="text-slate-200 text-lg">ВІЛЬНО - Українська , Російська </p>
+<p className="text-slate-200 text-lg">В1 - Англійська  </p>
+<p className="text-slate-200 text-lg">С1 - Румунська  </p>
 <p className="font-bold text-3xl text-white"> На даний момент </p> 
 
-<p className="text-slate-200">Цей шлях дозволив мені стати справжнім професіоналом у сфері контент-менеджменту та веб-розробки, поєднуючи креативний підхід і технічні навички. На даний момент я займаюсь переважно контент-менеджментом, зосереджуючись на створенні високоякісного контенту, управлінні соціальними мережами, розробці стратегій SEO та запуску ефективних рекламних кампаній.</p>
+<p className="text-slate-200 text-lg">Цей шлях дозволив мені стати справжнім професіоналом у сфері контент-менеджменту та веб-розробки, поєднуючи креативний підхід і технічні навички. На даний момент я займаюсь переважно контент-менеджментом, зосереджуючись на створенні високоякісного контенту, управлінні соціальними мережами, розробці стратегій SEO та запуску ефективних рекламних кампаній.</p>
 
 
 
