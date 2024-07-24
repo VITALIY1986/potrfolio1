@@ -63,22 +63,9 @@ export default function Header(props) {
 
             <header className={`header ${styles.header} ${props.className}`}>
                 <div className={`${styles.header__nav} absolute top-4 left-4 md:top-8 md:left-8 md:fixed`}>
-                    <div className={styles.header__nav__menu}>
-                        <Button
-                            type="menu"
-                            active={overlay}
-                            className="w-full h-full bg-black text-white"
-                            onClick={() => {
-                                setOverlay(!overlay);
-                            }}
-                        >
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </Button>
-                    </div>
+              
                     <div className={`${styles.header__nav__logo} bg-white font-extrabold font-heading text-black`} style={{ fontSize: 33 }}>
-                        <span>A/V</span>
+                        <span>A/C</span>
                     </div>
                 </div>
             </header>

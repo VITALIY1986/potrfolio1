@@ -11,31 +11,31 @@ import Typewriter from 'typewriter-effect';
 // Data
 const blog_travel_1 = [
     {
-        title: "What is Lorem Ipsum?",
-        image: "/assets/images/blog/travel111.jpg",
+        title: "Сайт дизайнера  Claudio Ungureanu Румунія ",
+        image: "/assets/images/blog/ung.jpg",
         image_width: 600,
         image_height: 600,
-        excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        excerpt: "В цьому проекті я розробила дизайн в програмі figma (може не коректно відображаися ца залежить від платформи figma)",
         category: "Lorem Ipsum",
-        link: "/",
+        link: "https://www.figma.com/proto/K8g08ebSao9HiRd5xRFr5Y/Wireframing-in-Figma?node-id=106-439&t=hK4nd8eCiaQAvgPd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A439",
     },
     {
-        title: "What is Lorem Ipsum?",
-        image: "/assets/images/blog/travel-1-2.jpg",
+        title: "Trifecta med spa -  мережа спа в Нью Йорку",
+        image: "/assets/images/blog/NewCover.jpg",
         image_width: 600,
         image_height: 900,
-        excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        excerpt: "В цьому проекті я приймала участь як дизайнер, верстальник - також заповнювала контентом на платформі Contentfull(Розроблено на Next.js)",
         category: "Lorem Ipsum",
-        link: "/",
+        link: "https://trifectamedspanyc.com/",
     },
     {
-        title: "What is Lorem Ipsum?",
-        image: "/assets/images/blog/travel111.jpg",
+        title: "ORL клініка  в Молдові",
+        image: "/assets/images/blog/orl.jpg",
         image_width: 600,
         image_height: 700,
-        excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        excerpt: "Приймала участь як дизайнер та наповнювала контентом",
         category: "Lorem Ipsum",
-        link: "/",
+        link: "https://orl.com.vekawedding.com/",
     },
     {
         title: "What is Lorem Ipsum?",
@@ -67,7 +67,7 @@ const blog_travel_1 = [
 ];
 
 // Magazine cover image
-import magazineCover from "../public/assets/images/covers/travel-56.jpg";
+import magazineCover from "../public/assets/images/covers/Alina.jpg";
 
 function Travel() {
     return (
@@ -81,7 +81,7 @@ function Travel() {
                                 <h1 className="text-white text-5xl font-extrabold leading-tight ">
                                 <Typewriter
   options={{
-    strings: ['Hello', 'World'],
+    strings: ['Привіт ', 'Мене звати',  'Альона Статкевич'],
     autoStart: true,
     loop: true,
   }}
@@ -102,13 +102,71 @@ function Travel() {
                         <Heading>
                             <Heading.Title>
                                 <h2 className="xl:absolute lg:left-8 xl:-left-32 right-8 text-4xl md:text-5xl font-extrabold  leading-tight text-white">
-                                    <span>Lorem Ipsum is simply dummy text  </span>
-                                    <span style={{ color: "#d10000" }}>of the printing and typesetting industry.</span>
+                                    <span>Моя професійна  </span>
+                                    <span style={{ color: "#d10000" }}>діяльність</span>
                                 </h2>
                             </Heading.Title>
                         </Heading>
                     </Block>
+
+                    <Block className="py-24 px-4 md:px-8 pb-20 xl:pb-52">
+                        <Heading>
+                           
+                            <p className="font-bold text-2xl text-white"> 2011 </p>
+                                    <p className="text-slate-200">Закінчила Національний університет біотехнологій та природних ресурсів за спеціальністю інженер.</p>
+                                    <p className="font-bold text-2xl text-white"> 2015 </p>
+                                    <p className="text-slate-200">Розпочала свою професійну діяльність як контент-менеджер. За цей час я займалася:</p>
+                                    <ul className="mt-3">
+                                        <li>- SMM та SEO</li>
+                                        <li>- Створенням постів і дизайнів</li>
+                                        <li>- Створенням рекламних банерів (фото ,відео)</li>
+                                        <li>- Фотографуванням та розробкою рекламних креативів</li>
+                                        <li>- Відеоанімацією</li>
+                                        <li>- Заповненням та зміною дизайнів сайтів</li>
+                                        <li>- Запуском рекламних кампаній у Facebook та Google SEO</li>
+                                        <li>- SEO</li>
+                                        </ul>
+<p className="text-slate-200">Освоїла такі програми:</p>
+<ul className="mt-3">
+                                        <li>- Adobe Photoshop</li>
+                                        <li>- Adobe After Effects</li>
+                                        <li>- Adobe Premiere Pro</li>
+                                        <li>- Google Web Designer</li>
+                                        <li>- Figma</li>
+                                         
+                                        </ul>
+                                        <p className="text-slate-200">Працювала з адмінпанелями:</p>   
+
+                                        <ul className="mt-3">
+                                        <li>- WordPress</li>
+                                        <li>- Joomla</li>
+                                        <li>- PrestaShop</li>
+                                        <li>- Contentful</li>
+                                       </ul>               
+                                        <p className="text-slate-200">Також набула досвіду з кодування:</p> 
+                                        <ul className="mt-3">
+                                        <li>- HTML, HTML5, CSS, SASS, SCSS</li>
+                                        <li>- Основи JavaScript</li>
+                                       </ul>   
+                                       <p className="font-bold text-2xl text-white"> 2016 </p> 
+
+                                       <p className="text-slate-200">Почала створювати сайти на платформах Contao та WordPress.</p>
+
+                                       <p className="font-bold text-2xl text-white"> 2018 </p> 
+
+<p className="text-slate-200">Поглибила знання з кодування на JavaScript та React. Почала розробляти особисті блоги для клієнтів на платформах Next.js та Gatsby.js.</p>
+
+<p className="font-bold text-3xl text-white"> На даний момент </p> 
+
+<p className="text-slate-200">Цей шлях дозволив мені стати справжнім професіоналом у сфері контент-менеджменту та веб-розробки, поєднуючи креативний підхід і технічні навички. На даний момент я займаюсь переважно контент-менеджментом, зосереджуючись на створенні високоякісного контенту, управлінні соціальними мережами, розробці стратегій SEO та запуску ефективних рекламних кампаній.</p>
+
+
+
+
+                        </Heading>
+                    </Block>
                     <Block className="pb-24 px-4 md:px-8">
+                    <h2 className="text-5xl font-bold mb-6 text-white"> Мої проекти </h2> 
                         <Masonry breakpointCols={{ default: 2, 768: 1 }} className="masonry flex" columnClassName="masonry__item">
                             {blog_travel_1 &&
                                 blog_travel_1.length > 0 &&
@@ -120,28 +178,7 @@ function Travel() {
                                     </div>
                                 ))}
                         </Masonry>
-                        <Pagination>
-                            <li>
-                                <a href="#">
-                                    <span className="current">1</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>2</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>3</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span className="next">NEXT</span>
-                                </a>
-                            </li>
-                        </Pagination>
+                      
                     </Block>
                     <Block className="px-8 pb-8">
                         <Heading className="text-center">
