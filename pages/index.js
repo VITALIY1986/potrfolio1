@@ -156,9 +156,28 @@ function Travel() {
 <li>- Facebook Pixel</li>
 <li>- Ahrefs</li>
 <li>- Різні сервіси для перевірки текстів на унікальність</li>
-</ul>             
+</ul>    
+
+<p className="text-slate-200 text-lg">Дизайн  </p>   
+
+<ul className="mt-3 text-lg">
+<li>- Схеми користувацьких інтерфейсів (UI)</li>
+<li>- Схеми користувацьких потоків (User Flows)</li>
+<li>- Карти сайтів (Sitemaps)</li>
+<li>- Прототипування</li>
+
+</ul>  
+<p className="text-slate-200 text-lg">Навчилася планувати кожен проект  </p>   
+
+<ul className="mt-3 text-lg">
+<li>- Trello </li>
+
+
+</ul>  
+
                                         <p className="text-slate-200 text-lg">Також набула досвіду з кодування:</p> 
                                         <ul className="mt-3 text-lg">
+                                        <li>- редактор кода Visual Studio Code</li>
                                         <li>- HTML, HTML5, CSS, SASS, SCSS</li>
                                         <li>- Основи JavaScript</li>
                                         <li>- фреймворки - Bootstrap 5 \ Bulma \ Tailwind CSS</li>
