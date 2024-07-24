@@ -16,7 +16,7 @@ const blog_travel_1 = [
         image_width: 600,
         image_height: 600,
         excerpt: "В цьому проекті я розробила дизайн в програмі figma (може не коректно відображаися ца залежить від платформи figma)",
-        category: "Lorem Ipsum",
+        category: "Розробка . дизайн",
         link: "https://www.figma.com/proto/K8g08ebSao9HiRd5xRFr5Y/Wireframing-in-Figma?node-id=106-439&t=hK4nd8eCiaQAvgPd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A439",
     },
     {
@@ -25,7 +25,7 @@ const blog_travel_1 = [
         image_width: 600,
         image_height: 900,
         excerpt: "В цьому проекті я приймала участь як дизайнер, верстальник - також заповнювала контентом на платформі Contentfull(Розроблено на Next.js)",
-        category: "Lorem Ipsum",
+        category: "Розробка . дизайн",
         link: "https://trifectamedspanyc.com/",
     },
     {
@@ -34,36 +34,28 @@ const blog_travel_1 = [
         image_width: 600,
         image_height: 700,
         excerpt: "Приймала участь як дизайнер та наповнювала контентом",
-        category: "Lorem Ipsum",
+        category: "Розробка . дизайн",
         link: "https://orl.com.vekawedding.com/",
     },
     {
-        title: "What is Lorem Ipsum?",
-        image: "/assets/images/blog/travel111.jpg",
+        title: "Відео креатив",
+        image: "/assets/images/blog/med.jpg",
         image_width: 600,
         image_height: 600,
-        excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-        category: "Lorem Ipsum",
-        link: "/",
+        excerpt: "Створено в  Adobe Photoshop та Adobe After Effects ",
+        category: "Розробка . дизайн",
+        link: "https://www.instagram.com/p/CE4vKtJFaP9/",
     },
     {
-        title: "What is Lorem Ipsum?",
-        image: "/assets/images/blog/travel111.jpg",
+        title: "Виробник весільних суконь Україна",
+        image: "/assets/images/blog/wedding.jpg",
         image_width: 600,
         image_height: 600,
-        excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-        category: "Lorem Ipsum",
-        link: "/",
+        excerpt: "Дизайн, розробка та наповнення контентом ",
+        category: "Розробка . дизайн",
+        link: "https://vekawedding.com/ro/wedding-stylist-2/",
     },
-    {
-        title: "What is Lorem Ipsum?",
-        image: "/assets/images/blog/travel111.jpg",
-        image_width: 600,
-        image_height: 400,
-        excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-        category: "Lorem Ipsum",
-        link: "/",
-    },
+   
 ];
 
 // Magazine cover image
@@ -81,7 +73,7 @@ function Travel() {
                                 <h1 className="text-white text-5xl font-extrabold leading-tight ">
                                 <Typewriter
   options={{
-    strings: ['Привіт ', 'Мене звати',  'Альона Статкевич'],
+    strings: ['Привіт ', 'це моє',  'портфоліо'],
     autoStart: true,
     loop: true,
   }}
@@ -111,9 +103,10 @@ function Travel() {
 
                     <Block className="py-24 px-4 md:px-8 pb-20 xl:pb-52">
                         <Heading>
-                           
+                        <p className="font-bold text-2xl text-white"> 2008 </p>
+                        <p className="text-slate-200">Навчалася в коледжі Імені Нечуя-Левицького за спеціальністю художник-дизайнер</p>
                             <p className="font-bold text-2xl text-white"> 2011 </p>
-                                    <p className="text-slate-200">Закінчила Національний університет біотехнологій та природних ресурсів за спеціальністю інженер.</p>
+                                    <p className="text-slate-200">Навчалася - Київський Національний університет біотехнологій та природних ресурсів за спеціальністю інженер.</p>
                                     <p className="font-bold text-2xl text-white"> 2015 </p>
                                     <p className="text-slate-200">Розпочала свою професійну діяльність як контент-менеджер. За цей час я займалася:</p>
                                     <ul className="mt-3">
@@ -184,19 +177,13 @@ function Travel() {
                         <Heading className="text-center">
                             <Heading.Title>
                                 <h2 className="text-45 text-2xl md:text-5xl font-extrabold leading-tight mb-8">
-                                    <span>Follow us on </span>
-                                    <span style={{ color: "#d10000" }}>Instagram</span>
-                                    <br></br>
-                                    <span>Lorem Ipsum</span>
+                                    <span>Звісно це не все моє портфоліо) </span>
+                                  
+                                 
+                                   
                                 </h2>
                             </Heading.Title>
-                            <Heading.Subtitle>
-                                <div>
-                                    <a href="#" rel="no-follow">
-                                        <Image src="/assets/images/icons/instagram.png" alt="Instagram Logo" width={64} height={64} />
-                                    </a>
-                                </div>
-                            </Heading.Subtitle>
+                          
                         </Heading>
                     </Block>
                 </Magazine.Content>

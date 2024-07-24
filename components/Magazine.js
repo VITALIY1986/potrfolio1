@@ -47,7 +47,7 @@ Magazine.Footer = (props) => {
                         <Row className="row">
                             <Col className="col-12 col-sm-6">
                                 <p className="text-sm text-center md:text-left invisible md:visible" style={{ color }}>
-                                    © 2023 Lorem Ipsum - Lorem Ipsum.
+                                    © 2024 Всі права захищені )
                                 </p>
                             </Col>
                             <Col className="col-12 col-sm-6">
