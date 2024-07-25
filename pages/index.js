@@ -30,7 +30,7 @@ const blog_travel_1 = [
         link: "https://orl.com.vekawedding.com/",
     },
     {
-        title: "PixelCraft - IТ Компанія в Румунії - місто Ясси",
+        title: "PixelCraft - It Компанія в Румунії - місто Ясси",
         image: "/assets/images/blog/it.jpg",
         image_width: 600,
         image_height: 600,
@@ -83,15 +83,7 @@ const blog_travel_1 = [
         category: "Розробка . дизайн",
         link: "https://www.instagram.com/p/CtkKbuxocUt",
     },
-    {
-        title: "Відео креатив ",
-        image: "/assets/images/blog/complex.jpg",
-        image_width: 600,
-        image_height: 600,
-        excerpt: "Відео відзняте мною ",
-        category: "Розробка . дизайн",
-        link: "https://www.instagram.com/p/CtzuuKAok9b/",
-    },
+  
     {
         title: "Відео креатив ",
         image: "/assets/images/blog/vit.jpg",
