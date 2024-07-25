@@ -333,7 +333,7 @@ function Travel() {
                         <Heading className="text-center">
                             <Heading.Title>
                                 <h2 className="text-45 text-2xl md:text-5xl font-extrabold leading-tight mb-8">
-                                    <span>Звісно, це лише частинка мого портфоліо...) </span>
+                                    <span>Звісно, це лише частинка мого портфоліо...😌 </span>
                                   
                                  
                                    
