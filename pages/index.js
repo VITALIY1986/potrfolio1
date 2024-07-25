@@ -262,7 +262,8 @@ function Travel() {
     
     </div>                     
     <div className="about-contact-box info-box shadow-box mt-6">
-    <p className="font-bold text-2xl text-white"> 2016 </p> 
+    <img src="/assets/images/other/icon2.png" alt="Icon" width={40} height={70} className="star-icon"/>
+    <p className="font-bold text-4xl text-white"> 2016 </p> 
 
 <p className="text-slate-200 text-lg">Почала створювати сайти на платформах Contao та WordPress.</p>
         
@@ -272,8 +273,8 @@ function Travel() {
         <div className="about-contact-box info-box shadow-box mt-6">  
 
 
-        <p className="font-bold text-2xl text-white"> 2018 </p> 
-
+        <p className="font-bold text-4xl text-white"> 2018 </p> 
+        <img src="/assets/images/other/icon2.png" alt="Icon" width={40} height={70} className="star-icon"/>
 <p className="text-slate-200 text-lg">Поглибила знання з кодування на JavaScript та React. Почала розробляти особисті блоги для клієнтів на платформах Next.js та Gatsby.js.</p>
 <ul className="mt-3 text-lg">
                                         <li>- Next.js</li>
@@ -286,7 +287,8 @@ function Travel() {
 
 
         </div>
-        <div className="about-contact-box info-box shadow-box mt-6">  
+        <div className="about-contact-box info-box shadow-box mt-6">
+        <img src="/assets/images/other/icon2.png" alt="Icon" width={40} height={70} className="star-icon"/>  
         <p className="font-bold text-3xl text-white"> Знання мов </p> 
 <p className="text-slate-200 text-lg">ВІЛЬНО - Українська , Російська </p>
 <p className="text-slate-200 text-lg">В1 - Англійська  </p>
@@ -294,19 +296,22 @@ function Travel() {
         
         </div>                             
         <div className="about-contact-box info-box shadow-box mt-6">  
+        <img src="/assets/images/other/icon2.png" alt="Icon" width={40} height={70} className="star-icon"/>
         <p className="font-bold text-3xl text-white"> На даний момент - поглиблюю знання з UI/UX дизайну та фотографії </p> 
 
 <p className="text-slate-200 text-lg">Цей шлях дозволив мені стати справжнім професіоналом у сфері контент-менеджменту та веб-розробки, поєднуючи креативний підхід і технічні навички. На даний момент я займаюсь переважно контент-менеджментом, зосереджуючись на створенні високоякісного контенту, управлінні соціальними мережами, розробці стратегій SEO та запуску ефективних рекламних кампаній.</p>
             
              </div>  
 
-             <div className="about-contact-box info-box shadow-box mt-6">  
+             <div className="about-contact-box info-box shadow-box mt-6"> 
+             <img src="/assets/images/other/icon2.png" alt="Icon" width={40} height={70} className="star-icon"/> 
              <p className="font-bold text-3xl text-white"> Відпочинок  </p> 
 
 
 <p className="text-slate-200 text-lg">Вільний час проводжу зі своєю сім'єю часто подорожую, обожнюю  гори 🏔️ та море 🌊. Гори надають мені можливість насолоджуватися природою, свіжим повітрям та активним відпочинком, як-от піші походи 🚶 та катання на лижах 🎿. Морський відпочинок дарує спокій та релаксацію 😌, дозволяє насолоджуватися сонцем ☀️, плаванням. Такі подорожі заряджають мене енергією ⚡ та натхненням для нових професійних звершень.</p>
                 </div>  
                 <div className="about-contact-box info-box shadow-box mt-6">  
+                <img src="/assets/images/other/icon2.png" alt="Icon" width={40} height={70} className="star-icon"/>
                 <p className="font-bold text-3xl text-white"> Віра  </p> 
                 <p className="text-slate-200 text-lg">Вірю що Ісус є  Господь ✝️</p>  
                      </div>  
