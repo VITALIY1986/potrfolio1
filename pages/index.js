@@ -130,7 +130,7 @@ function Travel() {
                     </Heading>
                     <div className="absolute right-3 md:right-8 bottom-20">
                         <Animate name="fadeIn" delay="1.2s" duration="2s">
-                            <Image className="App-logo" src="/assets/images/other/logoo.png" width={150} height={150} alt="travel" />
+                            <Image className="App-logo" src="/assets/images/other/logo.png" width={150} height={150} alt="travel" />
                         </Animate>
                     </div>
                     <Magazine.Footer className="absolute bottom-6 w-100" color="#fff" />
