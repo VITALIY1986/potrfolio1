@@ -140,8 +140,8 @@ function Travel() {
                         <Heading>
                             <Heading.Title>
                                 <h2 className="font-sans xl:absolute lg:left-8 xl:-left-32 right-8 text-4xl md:text-5xl font-extrabold  leading-tight text-white ">
-                                    <span>Мене звати Альона Статкевич, на цій веб сторінці я презентую своє портфоліо \ </span>
-                                    <span style={{ color: "#d10000" }}>Мою професійну діяльність</span>
+                                    <span>Мене звати Альона Статкевич, і я рада вітати вас на моїй веб-сторінці. </span>
+                                    <span style={{ color: "#d10000" }}>Тут ви знайдете мої проекти, досягнення та інформацію про мою професійну діяльність.</span>
                                 </h2>
                             </Heading.Title>
                         </Heading>
