@@ -53,22 +53,14 @@ Magazine.Footer = (props) => {
                             <Col className="col-12 col-sm-6">
                                 <ul className="flex items-center justify-center sm:justify-end social-icons">
                                     <li className="md:ml-3">
-                                        <a href="#" className="hover:opacity-60">
+                                        <a href="https://www.tiktok.com/@aliona_statkevych?_t=8oJhspJpbUG&_r=1" className="hover:opacity-60">
                                             <Twitter fill={color} width={14} height={14} />
                                         </a>
                                     </li>
+                                   
+
                                     <li className="ml-3">
-                                        <a href="#" className="hover:opacity-60">
-                                            <Tumbler fill={color} width={14} height={14} />
-                                        </a>
-                                    </li>
-                                    <li className="ml-3">
-                                        <a href="#" className="hover:opacity-60">
-                                            <Dribbble fill={color} width={14} height={14} />
-                                        </a>
-                                    </li>
-                                    <li className="ml-3">
-                                        <a href="#" className="hover:opacity-60">
+                                        <a href="https://www.instagram.com/alyona_statkevich?igsh=MWZ4MTRubTU0b2g5MA%3D%3D&utm_source=qr" className="hover:opacity-60">
                                             <Instagram fill={color} width={14} height={14} />
                                         </a>
                                     </li>
