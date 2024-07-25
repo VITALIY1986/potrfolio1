@@ -23,7 +23,7 @@ const Post = (props) => {
                                     </div>
                                     <Link href={post.link}>
                                         <a>
-                                            <div className="relative">
+                                            <div className="relative rounded-lg">
                                                 <Image src={post.image} alt={post.title} width={props.image_width} height={props.image_height} quality={props.image_quality} loading="eager" />
                                             </div>
                                         </a>

@@ -351,7 +351,7 @@ function Travel() {
                  
                         <Heading className="text-center flex justify-center mt-12">
                             <Heading.Title>
-                            <div className="button_shine">
+                            <div className="button_shine_phone">
   <a href="tel:+380664227756">Зателефонувати мені</a>
 </div>
                             </Heading.Title>
