@@ -90,7 +90,7 @@ const blog_travel_1 = [
 ];
 
 // Magazine cover image
-import magazineCover from "../public/assets/images/covers/VERTIGO.jpg";
+import magazineCover from "../public/assets/images/covers/i.jpg";
 
 function Travel() {
     return (
