@@ -11,15 +11,7 @@ import Typewriter from 'typewriter-effect';
 // Data
 const blog_travel_1 = [
  
-    {
-        title: "Trifecta med spa -  мережа спа в Нью Йорку",
-        image: "/assets/images/blog/NewCover.jpg",
-        image_width: 600,
-        image_height: 900,
-        excerpt: "У цьому проекті я брала участь як дизайнер та верстальник, а також займалася заповненням контенту на платформі Contentful. Розробка здійснювалася за допомогою Next.js, що забезпечило створення сучасного, динамічного та ефективного веб-додатку. Мої обов'язки включали розробку естетично привабливого дизайну, реалізацію адаптивної верстки та інтеграцію контенту через Contentful, що дозволило досягти високої якості користувацького досвіду та функціональності сайту.",
-        category: "Розробка . дизайн",
-        link: "https://trifectamedspanyc.com/",
-    },
+ 
     {
         title: "ORL клініка  в Молдові",
         image: "/assets/images/blog/orl.jpg",
@@ -38,15 +30,7 @@ const blog_travel_1 = [
         category: "Розробка . дизайн",
         link: "https://pixelcraft-media.com/",
     },
-    {
-        title: "Відео креатив",
-        image: "/assets/images/blog/med.jpg",
-        image_width: 600,
-        image_height: 600,
-        excerpt: "Створено в  Adobe Photoshop та Adobe After Effects ",
-        category: "Розробка . дизайн",
-        link: "https://www.instagram.com/p/CE4vKtJFaP9/",
-    },
+  
     {
         title: "Luxtex Постільна білизна від виробника",
         image: "/assets/images/blog/bedline.jpg",
@@ -106,7 +90,7 @@ const blog_travel_1 = [
 ];
 
 // Magazine cover image
-import magazineCover from "../public/assets/images/covers/i.jpg";
+import magazineCover from "../public/assets/images/covers/VERTIGO.jpg";
 
 function Travel() {
     return (

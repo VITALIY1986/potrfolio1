@@ -1,6 +1,8 @@
 import Head from "next/head";
+import imagePath from '../public/assets/images/covers/VERTIGO.jpg'; // или из другого места, где хранится изображение
 
 const Meta = ({ title, keywords, description,image }) => {
+    console.log()
     return (
         <Head>
             <title>Портфоліо Альона Статкевич</title>
@@ -15,8 +17,7 @@ const Meta = ({ title, keywords, description,image }) => {
             <meta name="distribution" content="global" />
             
             <meta
-          property="og:image"
-          content={image}
+             image={imagePath.src}
         />
         </Head>
     );
@@ -26,7 +27,7 @@ Meta.defaultProps = {
     title: "Портфоліо Альона Статкевич",
     keywords: "Портфоліо Альона Статкевич",
     description: "Портфоліо Альона Статкевич",
-    image:"https://instagram.fias1-1.fna.fbcdn.net/v/t51.2885-19/449252383_846037527375221_3275430813846302752_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fias1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=slXEjeB9ZaIQ7kNvgEyar0S&edm=AEhyXUkBAAAA&ccb=7-5&oh=00_AYCsfF2MDTchskBG8qnj93GdmCmPhXn-15rdIOVOgnwCFA&oe=66A70D13&_nc_sid=8f1549"
+    image:"http://localhost:3000/assets/images/covers/VERTIGO.jpg"
 };
 
 export default Meta;
